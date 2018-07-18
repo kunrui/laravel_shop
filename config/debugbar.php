@@ -15,7 +15,6 @@ return [
      */
 
     'enabled' => env('APP_DEBUG', false),
-    'enabled' => false,
     'except' => [
         'payment/alipay/notify',
         'payment/wechat/notify',
